@@ -1,0 +1,18 @@
+Read in file 07.dat and the file targets.dat The file targets.dat
+contains space-separated words.  Read in all the words and put them
+into a list in RAM.
+
+Then read in file 07.dat into a string.  Search this string for each
+word using Boyer-Moore and print the offset where it was found and the
+word, one per line.  For example:
+
+07.dat
+This is a test of my string finding homework.  This is only a test.
+
+targets.dat
+test homeworks
+
+output:
+10 test
+36 homework
+62 test

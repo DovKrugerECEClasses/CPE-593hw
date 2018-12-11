@@ -1,0 +1,20 @@
+open a file in the current directory named 01.dat
+Do not specify a directory or your program test will fail.
+
+The format for 01.dat is a single integer n.  Compute and print all
+the fibonacii numbers up to n.  Compute and print out the answer
+twice.  The first time should be computed iteratively.  The second
+time should be computed recursively using dynamic programming.  Your
+program should be capable of handling at least n=25 without overflow.
+
+For n=1 the output should be:
+1
+1
+
+for n=2 the output should be:
+1 1
+1 1
+
+for n=8:
+1 1 2 3 5 8 13 21
+1 1 2 3 5 8 13 21

@@ -1,0 +1,27 @@
+Read in the file 04.dat
+The first line should contain an integer n
+
+Using eratosthenes' sieve, print all the primes until n.
+
+The second line should contian a much bigger integer p.  Using Fermat
+and Miller-Rabin, execute k=6 trials and for each one print out the
+witness and whether it is still considered prime. If you find proof
+that the number is composite you may stop immediately.
+
+For example, given the file:
+
+20
+561
+
+the output should be:
+2 3 5 7 11 13 17 19
+Fermat
+2 still prime
+5 still prime
+13 still prime
+19 still prime
+21 still prime
+23 still prime
+
+Miller-Rabin
+2 composite

@@ -1,0 +1,22 @@
+Read in the file 03.dat containing a first line with an integer n, a
+second line with a list of n integers, and a third line consisting of
+a number to search for within the list.  Sort the list using heapsort.
+Then use binary search to find the number within the list.
+
+For example:
+
+5
+9 8 2 3 6
+4
+
+should result in the output:
+
+NOT FOUND
+
+because 4 is not within the list of 5 numbers, while:
+
+15
+9 8 2 3 6 8 5 2 4 5 5 15 12
+5
+
+should return the location of the 9 in the list
