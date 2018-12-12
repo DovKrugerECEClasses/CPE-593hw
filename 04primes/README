@@ -3,7 +3,7 @@ The first line should contain an integer n
 
 Using eratosthenes' sieve, print all the primes until n.
 
-The second line should contian a much bigger integer p.  Using Fermat
+The second line should contain a much bigger integer p.  Using Fermat
 and Miller-Rabin, execute k=6 trials and for each one print out the
 witness and whether it is still considered prime. If you find proof
 that the number is composite you may stop immediately.

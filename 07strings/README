@@ -16,3 +16,20 @@ output:
 10 test
 36 homework
 62 test
+
+
+
+
+Part B
+
+Write LCS using dynamic programming so your code is no worse than O(n^2) in the number of characters in each file
+
+Your program should use command line to open two files:
+
+java LCS file1.dat file2.dat
+
+or in C++
+
+LCS file1.dat file2.dat
+
+will print the number of characters in the longest common subsequence in the files.
